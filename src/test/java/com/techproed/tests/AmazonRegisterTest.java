@@ -92,7 +92,7 @@ public class AmazonRegisterTest extends TestBase {
         Assert.assertFalse( Driver.getDriver().getTitle().equals("Authentication required") );
     }
     //AC 05 : Emailin içerisinde 1 tane @ karakteri, 1 tane . olmalı.
-    //			(hamzayilmaz@gmail.com)
+    //			(akaslanselim@gmail.com)
     //AC 06 : Emailin içerisinde @ karekterinden önce en az 1 tane, sonrada
     //          en az 3 tane karakter olmalı.
     //   		(@gmail.com - hamza@ - hamza@a.a)
